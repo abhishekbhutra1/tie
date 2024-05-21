@@ -1,0 +1,70 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+  }
+
+  .toolbar #icon{
+    margin-left: 20px;
+  }
+
+  .toolbar #link{
+    margin: 0 8px;
+    color: black;
+  }
+
+  .content {
+    background-color: red;
+    display: flex;
+    margin: 0px auto 32px;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content .homeComponent{
+    background-color: blue;
+    height: 600px;
+    width: 100%;
+  }
+
+  .content .greetingComponent{
+    width: 100%;
+  }
+
+  .content .greetingComponent .helloComponent{
+    background-color: white;
+    height: 400px;
+  }
+
+  .content .greetingComponent .bigDayComponent{
+    background-color: yellow;
+    height: 600px;
+  }
+
+  .content .eventComponent{
+    height:400px;
+    width: 100%;
+    background-color: brown;
+  }
+
+  .content .invitationComponent{
+    width:100%;
+  }
+
+  .content .invitationComponent .videoInvitationComponent{
+    height: 400px;
+    background-color: indigo;
+  }
+
+  .content .invitationComponent .rsvpComponent{
+    height: 400px;
+    background-color: gray;
+  }
