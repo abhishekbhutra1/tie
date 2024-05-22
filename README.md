@@ -2,9 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
-## Development server
+## Steps to run this project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone this repository in VSCode.
+2. Open terminal and write following commands:
+    - npm install.
+    - ng serve.
+3. Once "Compiled successfully" is printed on the terminal, open your favourite browser and launch 'http://localhost:4200/'.
+
 
 ## Code scaffolding
 
